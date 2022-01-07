@@ -1,0 +1,133 @@
+body {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    margin: 80px;
+    
+}
+
+.heading {
+    font-size: 32px;
+    max-width: 274px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.aboutus {
+    max-width: 569px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    line-height: 25px;
+    margin: 10px 0 0 0;
+}
+
+.main-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.first-review {
+    border: none;
+    padding: 16px 50px 16px 23px;
+    margin: 9px 120px 0 20px;
+    background-color: hsl(333, 81%, 94%);
+    border-radius: 11px;
+}
+.second-review {
+    border: none;
+    padding: 16px 50px 16px 23px;
+    margin: 9px 90px 0 50px;
+    background-color: hsl(333, 81%, 94%);
+    border-radius: 11px;
+}
+.third-review {
+    border: none;
+    padding: 16px 50px 16px 23px;
+    margin: 9px 60px 0 80px;
+    background-color: hsl(333, 81%, 94%);
+    border-radius: 11px;
+}
+
+.review-text {
+    margin: 0 0 0 30px;
+}
+
+.catalog {
+    display: flex;
+    margin: 79px 0px 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.catalog-text {
+    max-width: 357px;
+    line-height: 23px;
+    color: hsl(333, 80%, 87%);
+    margin: 21px 0 5px 0;
+}
+
+    .coltonsmith {
+        border: none;
+        border-radius: 10px;
+        padding: 24px;
+        background-color: hsl(310, 26%, 15%);
+        color: white;
+        margin: 0 20px;
+    }
+    .irene {
+        border: none;
+        border-radius: 10px;
+        padding: 24px;
+        background-color: hsl(310, 26%, 15%);
+        color: white;
+        top: 22px;
+        position: relative;
+        margin: 0 20px;
+    }
+    .anne {
+        border: none;
+        border-radius: 10px;
+        padding: 24px;
+        background-color: hsl(310, 26%, 15%);
+        color: white;
+        position: relative;
+        top: 44px;
+        margin: 0 20px;
+    }
+    .catalog img {
+        border-radius: 50%;
+        width: 2.5rem;
+    }
+    .name {
+        
+            max-width: 127px;
+            line-height: 23px;
+            margin: 0 0 0 10px;
+        
+    }
+    .user-profile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .name span {
+        color: hsl(336, 45%, 41%);
+    }
+    footer {
+        position: absolute;
+        margin: 0 auto;
+        bottom: 0;
+    }
+    .background img:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+      
+    }
+    .background img:nth-child(2) {
+        position: absolute;
+        bottom: 1px;
+        right: 0;
+        margin: 0;
+    }
